@@ -1,5 +1,5 @@
 import MappedMember
 
-struct Test {
-    var SUS_1: String
+struct Test: Codable {
+    @Mapped("AGENCY_1") var agency: Int
 }

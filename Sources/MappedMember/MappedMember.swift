@@ -1,5 +1,5 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-@attached(accessor)
+@attached(peer)
 public macro Mapped(_ title: String) = #externalMacro(module: "MappedMemberMacros", type: "Mapped")
