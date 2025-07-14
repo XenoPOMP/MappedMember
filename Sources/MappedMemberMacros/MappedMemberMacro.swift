@@ -20,8 +20,8 @@ public struct Mapped: PeerMacro {
         return [
             """
             {
-                get { self[keyPath: \(raw: string.segments)] }
-                set { self[keyPath: \(raw: string.segments)] = newValue }
+                get { self[keyPath: \\.\(raw: string.segments)] }
+                set { self[keyPath: \\.\(raw: string.segments)] = newValue }
             }
             
             private var \(string.segments): \(type)
