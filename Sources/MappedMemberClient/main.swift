@@ -10,7 +10,7 @@ struct Test {
 }
 
 var test = Test(AGENCY_1: 12)
-print("get test.agency = \(test.agency)")
+print("get test.agency = \(test.agency)") // 12
 
 test.agency = 13
-print("get test.agency = \(test.agency)")
+print("get test.agency = \(test.agency)") // 13
